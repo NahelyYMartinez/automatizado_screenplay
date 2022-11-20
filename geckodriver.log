@@ -1,0 +1,320 @@
+1668869899115	geckodriver	INFO	Listening on 127.0.0.1:63821
+1668869902658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63822" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXjlPac"
+1668869909337	Marionette	INFO	Marionette enabled
+1668869909368	Marionette	INFO	Listening on port 63848
+Read port: 63848
+Read port: 63848
+WebDriver BiDi listening on ws://127.0.0.1:63822
+1668869911418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXjlPac\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63822/devtools/browser/af07c932-ce42-4ac1-9f65-53b461e88ba0
+1668870106687	Marionette	INFO	Stopped listening on port 63848
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofileXjlPac\protections.sqlite
+1668870128058	geckodriver	INFO	Listening on 127.0.0.1:64316
+1668870131055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiler4JCjT"
+1668870132576	Marionette	INFO	Marionette enabled
+1668870132638	Marionette	INFO	Listening on port 64337
+Read port: 64337
+WebDriver BiDi listening on ws://127.0.0.1:64317
+1668870133358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiler4JCjT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64317/devtools/browser/4f1ec3d5-179e-47a4-8f6a-9cf9511228ec
+1668870148657	Marionette	INFO	Stopped listening on port 64337
+!!! error running onStopped callback: TypeError: callback is not a function
+1668898908419	geckodriver	INFO	Listening on 127.0.0.1:56048
+1668898911489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRvsLTe"
+1668898913031	Marionette	INFO	Marionette enabled
+1668898913051	Marionette	INFO	Listening on port 56099
+Read port: 56099
+WebDriver BiDi listening on ws://127.0.0.1:56049
+1668898913610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRvsLTe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56049/devtools/browser/b6abfd35-73f9-42ce-8a40-b9c807481087
+1668898926561	Marionette	INFO	Stopped listening on port 56099
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 13956, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1668906328051	geckodriver	INFO	Listening on 127.0.0.1:52795
+1668906331200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52796" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehQ7UgS"
+1668906335488	Marionette	INFO	Marionette enabled
+1668906335508	Marionette	INFO	Listening on port 52825
+Read port: 52825
+WebDriver BiDi listening on ws://127.0.0.1:52796
+1668906336461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehQ7UgS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52796/devtools/browser/b862d8cb-f00e-4cf6-bb38-f6b8c757282d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668906604441	Marionette	INFO	Stopped listening on port 52825
+!!! error running onStopped callback: TypeError: callback is not a function
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written","state":{"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true},"filename":"resource://gre/modules/CrashMonitor.jsm","lineNumber":174,"stack":["resource://gre/modules/CrashMonitor.jsm:init:174","resource://gre/modules/nsCrashMonitor.jsm:observe:19"]},{"name":"SessionFile: Finish writing Session Restore data","state":{"options":{"isFinalWrite":true,"performShutdownCleanup":true},"attempts":4,"successes":3,"failures":0},"filename":"resource:///modules/sessionstore/SessionFile.jsm","lineNumber":425,"stack":["WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written","state":{"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true},"filename":"resource://gre/modules/CrashMonitor.jsm","lineNumber":174,"stack":["resource://gre/modules/CrashMonitor.jsm:init:174","resource://gre/modules/nsCrashMonitor.jsm:observe:19"]},{"name":"SessionFile: Finish writing Session Restore data","state":{"options":{"isFinalWrite":true,"performShutdownCleanup":true},"attempts":3,"successes":2,"failures":0},"filename":"resource:///modules/sessionstore/SessionFile.jsm","lineNumber":425,"stack":["resource:///modules/sessionstore/SessionFile.jsm:write:425","resource:///modules/sessionstore/SessionFile.jsm:write:53","resource:///modules/sessionstore/SessionSaver.jsm:_writeState:358","resource:///modules/sessionstore/SessionSaver.jsm:_saveState:296","resource:///modules/sessionstore/SessionSaver.jsm:run:164","resource:///modules/sessionstore/SessionSaver.jsm:run:79","resource:///modules/sessionstore/SessionStore.jsm:ssi_uninit:1081","resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplication:2370","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:1115"]}] Barrier: IOUtils: waiting for profileBeforeChange IO to complete
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"IOUtils Blocker (profile-before-change)","state":"(none)","filename":"/builds/worker/checkouts/gecko/dom/system/IOUtils.cpp","lineNumber":2130,"stack":"IOUtils::EventQueue::SetShutdownHooks"},{"name":"ContentParent: id=164423d6600","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://g[Parent 16244, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+/browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+[Parent 12780, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1668906653957	geckodriver	INFO	Listening on 127.0.0.1:53615
+1668906657443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53616" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8GHfcE"
+1668906662008	Marionette	INFO	Marionette enabled
+1668906662032	Marionette	INFO	Listening on port 53640
+Read port: 53640
+WebDriver BiDi listening on ws://127.0.0.1:53616
+1668906663118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8GHfcE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53616/devtools/browser/43d52e5d-7c9e-4257-be8b-359c61fcb94f
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+1668908705860	Marionette	INFO	Stopped listening on port 53640
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+AppData\\Local\\Temp\\rust_mozprofileladDkf"
+1668907278667	Marionette	INFO	Marionette enabled
+1668907278690	Marionette	INFO	Listening on port 55065
+Read port: 55065
+WebDriver BiDi listening on ws://127.0.0.1:55044
+1668907279695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileladDkf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55044/devtools/browser/9b1cddb1-2b8d-4cf7-9d11-061b55799201
+1668907319931	Marionette	INFO	Stopped listening on port 55065
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1668907448327	geckodriver	INFO	Listening on 127.0.0.1:55423
+1668907451641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2ZNWQY"
+1668907453512	Marionette	INFO	Marionette enabled
+1668907453572	Marionette	INFO	Listening on port 55444
+Read port: 55444
+WebDriver BiDi listening on ws://127.0.0.1:55424
+1668907454565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2ZNWQY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55424/devtools/browser/bffafe0a-a857-473b-abd7-c6c393724092
+1668908706901	Marionette	INFO	Stopped listening on port 55444
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=2db0193be00","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+ng on port 55920
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=2618158e200","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+h-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/R1668908711138	Marionette	INFO	Stopped listening on port 57226
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=231551c8100","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+NG: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=2e0cab9f100","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+://127.0.0.1:57884/devtools/browser/f2b82657-d5e6-4b38-904c-0d1a54052dff
+1668908712789	Marionette	INFO	Stopped listening on port 57903
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=295f5a34500","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3798,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:378","chrome://global/content/elements/browser-custom-element.js:construct:970","chrome://global/content/elements/browser-custom-element.js:connectedCallback:316","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:58","chrome://browser/content/browser.js:onDOMContentLoaded:1752"]}] Barrier: profile-before-change
+ng on port 58284
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1668908825836	geckodriver	INFO	Listening on 127.0.0.1:58716
+1668908828832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7ZmI0b"
+1668908830948	Marionette	INFO	Marionette enabled
+1668908830992	Marionette	INFO	Listening on port 58736
+Read port: 58736
+WebDriver BiDi listening on ws://127.0.0.1:58717
+1668908831916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7ZmI0b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58717/devtools/browser/f53bc54a-7718-410e-8da6-18747885e3e2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668909417998	Marionette	INFO	Stopped listening on port 58736
+!!! error running onStopped callback: TypeError: callback is not a function
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+g-port" "59168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileofESXi"
+1668909021204	Marionette	INFO	Marionette enabled
+1668909021232	Marionette	INFO	Listening on port 59185
+Read port: 59185
+WebDriver BiDi listening on ws://127.0.0.1:59168
+1668909021712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileofESXi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59168/devtools/browser/1b80a627-00b4-4bd0-9ca8-b1d9fcd5de4a
+1668909419246	Marionette	INFO	Stopped listening on port 59185
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "59858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilefAkWMl"
+1668909326845	Marionette	INFO	Marionette enabled
+1668909326864	Marionette	INFO	Listening on port 59875
+Read port: 59875
+WebDriver BiDi listening on ws://127.0.0.1:59858
+1668909327335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilefAkWMl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59858/devtools/browser/2b0e4105-f570-445c-96b4-98352c999929
+1668909421181	Marionette	INFO	Stopped listening on port 59875
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1668909434243	geckodriver	INFO	Listening on 127.0.0.1:60132
+1668909437279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenI6E65"
+1668909438280	Marionette	INFO	Marionette enabled
+1668909438299	Marionette	INFO	Listening on port 60150
+Read port: 60150
+WebDriver BiDi listening on ws://127.0.0.1:60133
+1668909438793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenI6E65\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60133/devtools/browser/d5b277cb-b981-48a5-9f18-8f73dbdd667a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668910324713	geckodriver	INFO	Listening on 127.0.0.1:62254
+1668910327782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehMHbY5"
+1668910328841	Marionette	INFO	Marionette enabled
+1668910328859	Marionette	INFO	Listening on port 62272
+Read port: 62272
+WebDriver BiDi listening on ws://127.0.0.1:62255
+1668910329363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehMHbY5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62255/devtools/browser/cc9feda7-b2a8-4191-b4b2-f426084733ce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1668910485697	geckodriver	INFO	Listening on 127.0.0.1:62706
+1668910488743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegooLTw"
+1668910489951	Marionette	INFO	Marionette enabled
+1668910489970	Marionette	INFO	Listening on port 62725
+Read port: 62725
+WebDriver BiDi listening on ws://127.0.0.1:62707
+1668910490446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegooLTw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62707/devtools/browser/9b55d4ad-121d-4e02-9f6a-32a1bcbc376a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
