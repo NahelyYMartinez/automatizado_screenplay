@@ -6,7 +6,6 @@ from selenium.webdriver.firefox.service import Service
 
 
 class Test_Login(unittest.TestCase):
-
     driver = webdriver.Firefox(service=Service(executable_path=GeckoDriverManager().install()))
 
     __user = 'standard_user'
@@ -29,9 +28,8 @@ class Test_Login(unittest.TestCase):
     def test3_click_login(self):
         driver = self.driver
         LoginPage().click_element(driver, self.__user, self.__password)
+        self.assertTrue("not element")
 
-
-
-    #@classmethod
-    #def tearDownClass(cls):
-       # cls.driver.quit()
+    # @classmethod
+    # def tearDownClass(cls):
+    # cls.driver.quit()
