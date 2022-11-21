@@ -16,22 +16,24 @@ class LoginPage:
         except Exception as inst:
             print("Error: To init the request", inst)
 
-    def enter_credential(self, driver: webdriver, user, password):
+    def incorrec_login(self, driver: webdriver, incorrect_usu, password):
         try:
             Get().get(driver, LoginUi.base_url)
             driver.maximize_window()
-            SendKeys().send_text(driver, LoginUi().input_user, user)
+            SendKeys().send_text(driver, LoginUi().input_user, incorrect_usu)
             SendKeys().send_text(driver, LoginUi().input_password, password)
+            Click().click_element(driver, LoginUi().button)
         except Exception as inst:
-            print("Error: insert credential", inst)
-    def click_element(self, driver: webdriver, user, password):
+            print("Error: login", inst)
+    def enter_login(self, driver: webdriver, user, password):
         try:
             Get().get(driver, LoginUi.base_url)
             driver.maximize_window()
             SendKeys().send_text(driver, LoginUi().input_user, user)
             SendKeys().send_text(driver, LoginUi().input_password, password)
             Click().click_element(driver, LoginUi().button)
-
+            Click().click_element(driver, LoginUi().burger_menu)
+            Click().click_element(driver, LoginUi().sidebar_about)
         except Exception as inst:
             print("Error: login", inst)
 

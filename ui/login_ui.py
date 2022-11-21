@@ -10,3 +10,6 @@ class LoginUi:
     input_password = 'password'
     button = 'login-button'
     xpath_page_init = '//*[@id="header_container"]/div[2]/span'
+    burger_menu = 'react-burger-menu-btn'
+    sidebar_about = 'about_sidebar_link'
+
